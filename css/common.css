@@ -1,0 +1,69 @@
+.more_btn_white{
+    width: 165px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition-duration: 0.2s;
+    animation-name: title_moving;
+    animation-direction: normal;
+    animation-duration: 1.9s;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+.more_btn_white>a{
+    color: #fff;
+}
+
+.more_btn_white:hover{
+    background-color: #ffffff32;
+}
+
+.more_btn_black{
+    width: 165px;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+.more_btn_black>a{
+    color: #000;
+}
+
+.more_btn_black:hover{
+    background-color: #000;
+}
+
+.more_btn_black:hover>a{
+    color: #fff;
+}
+
+@media all and (max-width:450px){
+
+    .more_btn_white{
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
+    }
+
+    .more_btn_black{
+        width: 90px;
+        height: 30px;
+        font-size: 11px;
+        margin-top: 16px;
+    }
+
+}

@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{display: block; text-decoration: none; color: #000;}
+@import url("https://cdn.jsdelivr.net/gh/wanteddev/wanted-sans@v1.0.1/packages/wanted-sans/fonts/webfonts/variable/split/WantedSansVariable.min.css");
+
+
+body, button, input, select, textarea {
+    font-family: 'Montserrat', 'Noto Sans KR';
+}
